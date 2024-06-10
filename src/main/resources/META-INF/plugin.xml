@@ -6,13 +6,7 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.vikthorvergara.vesperoso.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <themeProvider id="com.github.vikthorvergara.vesperoso"  path="/vesperoso.theme.json"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.vikthorvergara.vesperoso.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
 </idea-plugin>
