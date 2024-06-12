@@ -2,12 +2,18 @@
   "name": "vepseroso",
   "dark": true,
   "author": "Vikthor Ferreira",
-  "editorScheme": "/vesperoso.xml",
+  "editorScheme": "vesperoso",
   "colors": {
     "hidden": "#FFFFFF00",
     "primary": "#101010",
+    "accent": "#FFBD89",
+    "alternate": "#9AFFE7",
+    "magenta": "#9162D5",
+    "error": "#FF8080",
+    "success": "#89ca78",
+    "gray": "#505050",
     "primary25": "#10101025",
-    "secondary": "#FFFFFF",
+    "secondary": "#EEEEEE",
     "secondary10": "#FFFFFF10",
     "activeSelection": "#FFFFFF28",
     "activeSelectionVivid": "#FFFFFF40",
@@ -15,12 +21,10 @@
     "borderColor": "#1c1c1c00",
     "accentLighten2": "#E3E3DD",
     "accentLighten": "#FFCFA8",
-    "accent": "#FFC799",
     "accentVivid": "#FF7300",
     "accentVivid25": "#FF730025",
     "accent25": "#FFC79925",
     "accent80": "#FFC79980",
-    "alternate": "#99FFE4",
     "alternate40": "#99FFE440",
     "blueGray": "#65737E",
     "grayLighten6": "#C1C1C1",
@@ -29,14 +33,10 @@
     "grayLighten3": "#707070",
     "grayLighten2": "#666666",
     "grayLighten1": "#595959",
-    "gray": "#505050",
     "grayDarken1": "#373737",
     "grayDarken2": "#282828",
     "grayDarken3": "#232323",
-    "grayDarken4": "#1C1C1C",
-    "magenta": "#FBADFF",
-    "error": "#FF8080",
-    "success": "#89ca78"
+    "grayDarken4": "#1C1C1C"
   },
   "ui": {
     "*": {
@@ -46,8 +46,8 @@
       "selectionInactiveBackground": "inactiveSelection",
       "disabledBackground": "primary",
       "underlineColor": "activeSelection",
-      "borderColor": "borderColor",
-      "separatorColor": "#1c1c1c"
+      "borderColor": "grayDarken4",
+      "separatorColor": "grayDarken4"
     },
     "ActionButton": {
       "hoverBorderColor": "inactiveSelection",
@@ -97,18 +97,16 @@
       }
     },
     "CompletionPopup": {
-      "background": "grayDarken2",
-      "selectionBackground": "inactiveSelection",
+      "background": "grayDarken1",
+      "selectionBackground": "grayDarken3",
       "matchForeground": "accent",
       "Advertiser": {
-        "background": "grayDarken2",
+        "background": "grayDarken1",
         "foreground": "grayLighten2"
       }
     },
     "ComplexPopup": {
-      "Header": {
-        "background": "primary"
-      }
+      "Header.background": "grayDarken1"
     },
     "Component": {
       "focusColor": "activeSelection",
@@ -132,6 +130,7 @@
         "background": "primary"
       },
       "shortcutForeground": "accent",
+      "Toolbar.borderColor": "borderColor",
       "ToolTip": {
         "background": "grayDarken2",
         "borderColor": "grayDarken2"
@@ -154,6 +153,33 @@
       "visitedForeground": "alternate",
       "pressedForeground": "alternate"
     },
+    "List": {
+      "rowHeight": 26,
+      "selectionBackground": "grayDarken3",
+      "selectionForeground": "accent",
+      "hoverBackground": "grayDarken2"
+    },
+    "Menu": {
+      "acceleratorForeground": "secondary",
+      "acceleratorSelectionForeground": "accent",
+      "background": "grayDarken1",
+      "borderColor": "grayDarken1",
+      "disabledBackground": "grayDarken1",
+      "disabledForeground": "gray",
+      "foreground": "secondary",
+      "separatorColor": "grayLighten1",
+      "selectionBackground": "grayDarken3",
+      "selectionForeground": "accent"
+    },
+    "MenuItem": {
+      "acceleratorForeground": "secondary",
+      "background": "grayDarken1",
+      "disabledBackground": "grayDarken1",
+      "disabledForeground": "gray",
+      "foreground": "secondary",
+      "selectionBackground": "grayDarken3",
+      "selectionForeground": "accent"
+    },
     "Notification": {
       "ToolWindow": {
         "informativeBackground": "primary",
@@ -173,6 +199,32 @@
     "Plugins": {
       "hoverBackground": "grayDarken2",
       "lightSelectionBackground": "grayLighten1"
+    },
+    "Popup": {
+      "Advertiser": {
+        "background": "grayDarken1",
+        "borderColor": "grayDarken1"
+      },
+      "Header": {
+        "activeBackground": "grayDarken1",
+        "activeForeground": "secondary",
+        "inactiveBackground": "grayDarken1",
+        "inactiveForeground": "grayLighten2"
+      },
+      "background": "grayDarken1",
+      "borderColor": "grayDarken1",
+      "paintBorder": "grayLighten1",
+      "separatorColor": "grayLighten1",
+      "Toolbar":{
+        "background": "grayDarken1"
+      }
+    },
+    "PopupMenu": {
+      "background": "grayDarken1",
+      "borderWidth": 0,
+      "foreground": "secondary",
+      "selectionBackground": "grayDarken3",
+      "selectionForeground": "accent"
     },
     "ScrollBar": {
       "Transparent": {
@@ -205,6 +257,21 @@
     "SidePanel": {
       "background": "background"
     },
+    "SpeedSearch": {
+      "background": "grayDarken1",
+      "borderColor": "grayDarken1",
+      "foreground": "secondary",
+      "errorForeground": "error"
+    },
+    "TabbedPane": {
+      "background": "grayDarken2",
+      "focus": "primary",
+      "focusColor": "primary",
+      "foreground": "secondary",
+      "hoverColor": "activeSelection",
+      "tabHeight": 42,
+      "underlineColor": "accent"
+    },
     "Table": {
       "background": "primary",
       "foreground": "secondary",
@@ -224,7 +291,10 @@
       "bottomSeparatorColor": "separatorColor"
     },
     "TextField": {
-      "background": "primary"
+      "background": "grayDarken4"
+    },
+    "TextArea": {
+      "background": "grayDarken4"
     },
     "ToggleButton": {
       "onBackground": "foreground"
@@ -237,6 +307,7 @@
       "separatorColor": "borderColor"
     },
     "ToolWindow": {
+      "background": "primary",
       "Button": {
         "selectedBackground": "grayDarken2"
       },
@@ -245,8 +316,13 @@
         "inactiveBackground": "primary"
       }
     },
+
     "Tree": {
-      "background": "primary"
+      "background": "primary",
+      "rowHeight": 26,
+      "selectionBackground": "grayDarken3",
+      "selectionForeground": "accent",
+      "selectionInactiveBackground": "grayDarken3"
     },
     "VersionControl": {
       "Log": {
