@@ -3,10 +3,13 @@
     <id>com.github.vikthorvergara.vesperoso</id>
     <name>vesperoso</name>
     <vendor>vikthorvergara</vendor>
+    <description><![CDATA[
+    Based on the Vesper++ Theme from <a href="https://github.com/ObstinateM/vesper">ObstinateM</a>, with some minor color adaptations for IntelliJ.
+    ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="com.github.vikthorvergara.vesperoso"  path="/vesperoso.theme.json"/>
+        <themeProvider id="com.github.vikthorvergara.vesperoso" path="/vesperoso.theme.json"/>
     </extensions>
 </idea-plugin>
