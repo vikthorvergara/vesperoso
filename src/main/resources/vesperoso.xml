@@ -7,11 +7,17 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="99ffe4" />
     <option name="ANNOTATIONS_COLOR" value="ffffff" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_END" value="101010" />
+    <option name="BLOCK_TERMINAL_BLOCK_BACKGROUND_START" value="101010" />
+    <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="101010" />
+    <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="eeeeee" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_BACKGROUND" value="101010" />
+    <option name="BLOCK_TERMINAL_INACTIVE_SELECTED_BLOCK_STROKE_COLOR" value="" />
     <option name="CARET_COLOR" value="aeafad" />
     <option name="CARET_ROW_COLOR" value="161616" />
     <option name="CONSOLE_BACKGROUND_KEY" value="101010" />
     <option name="DELETED_LINES_COLOR" value="505050" />
-    <option name="DOCUMENTATION_COLOR" value="282828" />
+    <option name="DOCUMENTATION_COLOR" value="373737" />
     <option name="DOC_COMMENT_GUIDE" value="595959" />
     <option name="DOC_COMMENT_LINK" value="ffbd89" />
     <option name="EDITOR_GUTTER_BACKGROUND" value="" />
@@ -23,7 +29,7 @@
     <option name="INFORMATION_HINT" value="282828" />
     <option name="LINE_NUMBERS_COLOR" value="505050" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c6c6c6" />
-    <option name="LOOKUP_COLOR" value="282828" />
+    <option name="LOOKUP_COLOR" value="373737" />
     <option name="MODIFIED_LINES_COLOR" value="ffc799" />
     <option name="NOTIFICATION_BACKGROUND" value="282828" />
     <option name="RECENT_LOCATIONS_SELECTION" value="282828" />
@@ -132,8 +138,8 @@
     <option name="CSS.URL" baseAttributes="" />
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="ffc799" />
-        <option name="EFFECT_COLOR" value="ffc799" />
+        <option name="FOREGROUND" value="ffbd89" />
+        <option name="EFFECT_COLOR" value="ffbd89" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -391,8 +397,8 @@
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffc799" />
-        <option name="EFFECT_COLOR" value="ffc799" />
+        <option name="FOREGROUND" value="ffbd89" />
+        <option name="EFFECT_COLOR" value="ffbd89" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -480,8 +486,8 @@
     <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffc799" />
-        <option name="EFFECT_COLOR" value="ffc799" />
+        <option name="FOREGROUND" value="ffbd89" />
+        <option name="EFFECT_COLOR" value="ffbd89" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -499,15 +505,15 @@
     </option>
     <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffc799" />
-        <option name="EFFECT_COLOR" value="ffc799" />
+        <option name="FOREGROUND" value="ffbd89" />
+        <option name="EFFECT_COLOR" value="ffbd89" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="INFO_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ffc799" />
-        <option name="ERROR_STRIPE_COLOR" value="ffc799" />
+        <option name="EFFECT_COLOR" value="ffbd89" />
+        <option name="ERROR_STRIPE_COLOR" value="ffbd89" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -807,6 +813,11 @@
     </option>
     <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
     <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
+    <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9162d5" />
+      </value>
+    </option>
     <option name="TERMINAL_CLASS_NAME_LOG_REFERENCE">
       <value>
         <option name="EFFECT_COLOR" value="ffc799" />
@@ -834,7 +845,7 @@
     </option>
     <option name="TEXT_STYLE_SUGGESTION">
       <value>
-        <option name="EFFECT_COLOR" value="a1ffe7" />
+        <option name="EFFECT_COLOR" value="9affe7" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -876,7 +887,7 @@
     </option>
     <option name="TYPO">
       <value>
-        <option name="EFFECT_COLOR" value="a1ffe7" />
+        <option name="EFFECT_COLOR" value="9affe7" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -899,8 +910,8 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ffc799" />
-        <option name="ERROR_STRIPE_COLOR" value="ffc799" />
+        <option name="EFFECT_COLOR" value="ffbd89" />
+        <option name="ERROR_STRIPE_COLOR" value="ffbd89" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>

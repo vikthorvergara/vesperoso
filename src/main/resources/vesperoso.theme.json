@@ -155,6 +155,7 @@
     },
     "List": {
       "rowHeight": 26,
+      "background": "grayDarken1",
       "selectionBackground": "grayDarken3",
       "selectionForeground": "accent",
       "hoverBackground": "grayDarken2"
