@@ -1,4 +1,5 @@
 import org.jetbrains.changelog.Changelog
+import java.util.Properties
 
 fun properties(key: String) = providers.gradleProperty(key)
 fun environment(key: String) = providers.environmentVariable(key)
@@ -98,7 +99,11 @@ tasks {
 
     publishPlugin {
         dependsOn("patchChangelog")
-        token = environment("PUBLISH_TOKEN")
+        val props = Properties()
+        props.load(rootProject.file("token.properties").inputStream())
+
+        val intellijPublishToken = props.getProperty("intellij-publish-token")
+        token = intellijPublishToken
         // The pluginVersion is based on the SemVer (https://semver.org) and supports pre-release labels, like 2.1.7-alpha.3
         // Specify pre-release label to publish the plugin in a custom Release Channel automatically. Read more:
         // https://plugins.jetbrains.com/docs/intellij/deployment.html#specifying-a-release-channel
