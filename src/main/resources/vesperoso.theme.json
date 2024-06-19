@@ -2,7 +2,7 @@
   "name": "vepseroso",
   "dark": true,
   "author": "Vikthor Ferreira",
-  "editorScheme": "vesperoso",
+  "editorScheme": "/colors/vesperoso.xml",
   "colors": {
     "hidden": "#FFFFFF00",
     "primary": "#101010",
