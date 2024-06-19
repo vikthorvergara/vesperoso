@@ -145,7 +145,7 @@
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="FOREGROUND" value="ffbd89" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
@@ -466,7 +466,7 @@
     </option>
     <option name="HAML_TAG">
       <value>
-        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="FOREGROUND" value="ffbd89" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
@@ -671,7 +671,7 @@
     </option>
     <option name="PHP_HEREDOC_CONTENT">
       <value>
-        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="FOREGROUND" value="ffbd89" />
       </value>
     </option>
     <option name="PHP_IDENTIFIER">
@@ -702,7 +702,7 @@
     </option>
     <option name="PHP_THIS_VAR">
       <value>
-        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="FOREGROUND" value="ffbd89" />
       </value>
     </option>
     <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
@@ -747,7 +747,7 @@
     </option>
     <option name="RUBY_HEREDOC_CONTENT">
       <value>
-        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="FOREGROUND" value="ffbd89" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -872,7 +872,7 @@
     </option>
     <option name="TS.REGEXP">
       <value>
-        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="FOREGROUND" value="ffbd89" />
       </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
@@ -977,7 +977,7 @@
     </option>
     <option name="XPATH.XPATH_PREFIX">
       <value>
-        <option name="FOREGROUND" value="fd8f3f" />
+        <option name="FOREGROUND" value="ffbd89" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
