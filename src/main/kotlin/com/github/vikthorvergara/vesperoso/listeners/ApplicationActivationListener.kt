@@ -1,5 +1,0 @@
-package com.github.vikthorvergara.vesperoso.listeners
-
-import com.intellij.openapi.application.ApplicationActivationListener
-
-internal class ApplicationActivationListener : ApplicationActivationListener
