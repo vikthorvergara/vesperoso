@@ -1,12 +1,12 @@
 # vesperoso
 
 ![Build](https://github.com/vikthorvergara/vesperoso/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/com.github.vikthorvergara.vesperoso.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.github.vikthorvergara.vesperoso.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/com.github.vikthorvergara.vesperoso.svg)](https://plugins.jetbrains.com/plugin/24621-vesperoso)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.github.vikthorvergara.vesperoso.svg)](https://plugins.jetbrains.com/plugin/24621-vesperoso)
 
 > Based on the [Vesper++](https://github.com/ObstinateM/vesper) Theme from ObstinateM with some minor color adaptations for IntelliJ.
 
-![Code example](https://github.com/vikthorvergara/vesperoso/raw/master/docs/screenshots/default.png)
+![Code example](https://raw.githubusercontent.com/vikthorvergara/vesperoso/development/docs/screenshots/default.png)
 
 ## Installation
 
@@ -25,4 +25,4 @@ After installing the theme, go to `Preferences` | `Appearance & Behavior` | `App
 **vesperoso** option in the theme dropdown. Once you have selected it, click the **OK** button to apply the changes, so
 you can start enjoying vesperoso theme!
 
-![Configuration example](https://github.com/vikthorvergara/vesperoso/raw/master/docs/screenshots/configuration.png)
+![Configuration example](https://raw.githubusercontent.com/vikthorvergara/vesperoso/development/docs/screenshots/configuration.png)
