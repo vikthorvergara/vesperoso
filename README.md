@@ -1,40 +1,28 @@
 # vesperoso
 
 ![Build](https://github.com/vikthorvergara/vesperoso/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/com.github.vikthorvergara.vesperoso.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/com.github.vikthorvergara.vesperoso.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Get familiar with the [template documentation][template].
-- [ ] Adjust the [pluginGroup](./gradle.properties), [plugin ID](./src/main/resources/META-INF/plugin.xml) and [sources package](./src/main/kotlin).
-- [ ] Adjust the plugin description in `README` (see [Tips][docs:plugin-description])
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the `PLUGIN_ID` in the above README badges.
-- [ ] Set the [Plugin Signing](https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate) related [secrets](https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables).
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
+> Based on the [Vesper++](https://github.com/ObstinateM/vesper) Theme from ObstinateM with some minor color adaptations for IntelliJ.
 
-<!-- Plugin description -->
-Based on the Vesper++ Theme from <a href="https://github.com/ObstinateM/vesper">ObstinateM</a>, with some minor color adaptations for IntelliJ. 
-<!-- Plugin description end -->
+![Code example](https://github.com/vikthorvergara/vesperoso/raw/master/docs/screenshots/default.png)
 
 ## Installation
 
 - Using the IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "vesperoso"</kbd> >
-  <kbd>Install</kbd>
-  
+
+  `Settings/Preferences` | `Plugins` | `Marketplace` | `Search for "vesperoso"` | `Install`
+
 - Manually:
 
-  Download the [latest release](https://github.com/vikthorvergara/vesperoso/releases/latest) and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
+  Download the [latest release](https://github.com/vikthorvergara/vesperoso/releases/latest) and install it manually
+using `Settings/Preferences` | `Plugins` | `⚙️` | `Install plugin from disk...`
 
+## Setup
 
----
-Plugin based on the [IntelliJ Platform Plugin Template][template].
+After installing the theme, go to `Preferences` | `Appearance & Behavior` | `Appearance` and select one of the
+**vesperoso** option in the theme dropdown. Once you have selected it, click the **OK** button to apply the changes, so
+you can start enjoying vesperoso theme!
 
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
-[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation
+![Configuration example](https://github.com/vikthorvergara/vesperoso/raw/master/docs/screenshots/configuration.png)

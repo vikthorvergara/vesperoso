@@ -7,9 +7,6 @@
         Based on the Vesper++ Theme from <a href="https://github.com/ObstinateM/vesper">ObstinateM</a>, with some minor color adaptations for IntelliJ.
     ]]></description>
 
-    <change-notes><![CDATA[
-        Fixed an issue where the Color Scheme was not being loaded with the Theme.
-    ]]></change-notes>
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">

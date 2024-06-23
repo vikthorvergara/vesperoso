@@ -140,7 +140,7 @@
       "background": "grayDarken2",
       "foreground": "secondary",
       "inactiveBackground": "grayDarken2",
-      "splitBorder": "bordercolor"
+      "splitBorder": "borderColor"
     },
     "EditorTabs": {
       "underlineColor": "accent",
@@ -314,10 +314,13 @@
       },
       "Header": {
         "background": "primary",
-        "inactiveBackground": "primary"
+        "borderColor": "borderColor",
+        "fontSizeOffset": 0,
+        "height": 42,
+        "inactiveBackground": "primary",
+        "padding": 16
       }
     },
-
     "Tree": {
       "background": "primary",
       "rowHeight": 26,
