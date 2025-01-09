@@ -2,7 +2,7 @@
   "name": "vepseroso",
   "dark": true,
   "author": "Vikthor Ferreira",
-  "editorScheme": "/colors/vesperoso.xml",
+  "editorScheme": "/colors/vesperosoPlusPlus.xml",
   "colors": {
     "hidden": "#FFFFFF00",
     "primary": "#101010",
@@ -292,9 +292,11 @@
       "bottomSeparatorColor": "separatorColor"
     },
     "TextField": {
+      "foreground": "secondary",
       "background": "grayDarken4"
     },
     "TextArea": {
+      "foreground": "secondary",
       "background": "grayDarken4"
     },
     "ToggleButton": {
