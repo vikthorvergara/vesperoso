@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.5] - 2025-04-23
+
+### Changed
+
+- Added compatibility with newer IntelliJ versions (252.*).
+
 ## [0.1.4] - 2025-04-23
 
 ### Fixed
@@ -40,7 +46,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fixed an issue where the Color Scheme was not being loaded with the Theme.
 
-[Unreleased]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.3...HEAD
-[0.1.3]: https://github.com/vikthorvergara/vesperoso/pull/22/commits
-[0.1.2]: https://github.com/vikthorvergara/vesperoso/pull/4/commits
+[Unreleased]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.4...HEAD
+[0.1.4]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.3...v0.1.4
+[0.1.3]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.2...v0.1.3
+[0.1.2]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/vikthorvergara/vesperoso/commits/v0.1.1
