@@ -3,11 +3,11 @@
 exampleLibrary = "24.1.0"
 
 # plugins
-kotlin = "2.2.21"
-changelog = "2.4.0"
+kotlin = "2.3.0"
+changelog = "2.5.0"
 gradleIntelliJPlugin = "1.17.4"
 qodana = "2025.3.1"
-kover = "0.9.3"
+kover = "0.9.4"
 
 [libraries]
 exampleLibrary = { group = "com.example", name = "exampleLibrary", version.ref = "exampleLibrary" }
