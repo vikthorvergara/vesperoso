@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.9] - 2026-09-07
+
+### Changed
+
+- Added compatibility with IntelliJ IDEA 2026.2 (262.*).
+- Upgraded IntelliJ Platform Gradle Plugin to 2.18.1.
+- Upgraded Gradle to 9.6.1.
+- Upgraded Kotlin to 2.4.0.
+- Upgraded Kover to 0.9.8.
+- Upgraded Qodana to 2026.1.3.
+
 ## [0.1.8] - 2026-04-09
 
 ### Changed
@@ -69,7 +80,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fixed an issue where the Color Scheme was not being loaded with the Theme.
 
-[Unreleased]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.8...HEAD
+[Unreleased]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.9...HEAD
+[0.1.9]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.8...v0.1.9
 [0.1.8]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.7...v0.1.8
 [0.1.7]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.6...v0.1.7
 [0.1.6]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.5...v0.1.6
