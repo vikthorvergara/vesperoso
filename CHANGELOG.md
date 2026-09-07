@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Added compatibility with newer IntelliJ versions (261.*).
+- Migrated to IntelliJ Platform Gradle Plugin 2.13.1 (fixes Gradle 9 compatibility).
+- Upgraded Gradle to 9.3.0.
 
 ## [0.1.7] - 2025-12-08
 
