@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.8] - 2026-04-09
+
+### Changed
+
+- Added compatibility with newer IntelliJ versions (261.*).
+- Migrated to IntelliJ Platform Gradle Plugin 2.13.1 (fixes Gradle 9 compatibility).
+- Upgraded Gradle to 9.3.0.
+
 ## [0.1.7] - 2025-12-08
 
 ### Changed
@@ -61,7 +69,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fixed an issue where the Color Scheme was not being loaded with the Theme.
 
-[Unreleased]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.7...HEAD
+[Unreleased]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.8...HEAD
+[0.1.8]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.7...v0.1.8
 [0.1.7]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.6...v0.1.7
 [0.1.6]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.5...v0.1.6
 [0.1.5]: https://github.com/vikthorvergara/vesperoso/compare/v0.1.4...v0.1.5
