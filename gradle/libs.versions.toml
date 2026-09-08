@@ -3,7 +3,7 @@
 exampleLibrary = "24.1.0"
 
 # plugins
-kotlin = "2.4.0"
+kotlin = "2.4.10"
 changelog = "2.5.0"
 gradleIntelliJPlugin = "2.13.1"
 qodana = "2025.3.1"
